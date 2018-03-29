@@ -1,0 +1,10 @@
+C:\Users\javak\Source\Repos\drink\drink\bin\Debug\drink.exe.config
+C:\Users\javak\Source\Repos\drink\drink\bin\Debug\drink.exe
+C:\Users\javak\Source\Repos\drink\drink\bin\Debug\drink.pdb
+C:\Users\javak\Source\Repos\drink\drink\obj\Debug\drink.csprojResolveAssemblyReference.cache
+C:\Users\javak\Source\Repos\drink\drink\obj\Debug\drink.Properties.Resources.resources
+C:\Users\javak\Source\Repos\drink\drink\obj\Debug\drink.csproj.GenerateResource.Cache
+C:\Users\javak\Source\Repos\drink\drink\obj\Debug\drink.csproj.CoreCompileInputs.cache
+C:\Users\javak\Source\Repos\drink\drink\obj\Debug\drink.exe
+C:\Users\javak\Source\Repos\drink\drink\obj\Debug\drink.pdb
+C:\Users\javak\Source\Repos\drink\drink\obj\Debug\drink.VendingMachine.resources
