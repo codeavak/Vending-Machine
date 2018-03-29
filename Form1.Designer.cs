@@ -58,7 +58,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::drink.Properties.Resources.Cola;
-            this.pictureBox1.Location = new System.Drawing.Point(89, 92);
+            this.pictureBox1.Location = new System.Drawing.Point(95, 93);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(64, 64);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -68,7 +68,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::drink.Properties.Resources.CreamSoda;
-            this.pictureBox2.Location = new System.Drawing.Point(192, 92);
+            this.pictureBox2.Location = new System.Drawing.Point(198, 93);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(62, 64);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -78,7 +78,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::drink.Properties.Resources.GrapeSoda;
-            this.pictureBox3.Location = new System.Drawing.Point(89, 210);
+            this.pictureBox3.Location = new System.Drawing.Point(95, 211);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(62, 64);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -88,7 +88,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::drink.Properties.Resources.LemonLime;
-            this.pictureBox4.Location = new System.Drawing.Point(192, 210);
+            this.pictureBox4.Location = new System.Drawing.Point(198, 211);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(62, 64);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -98,7 +98,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::drink.Properties.Resources.RootBeer;
-            this.pictureBox5.Location = new System.Drawing.Point(134, 315);
+            this.pictureBox5.Location = new System.Drawing.Point(134, 340);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(64, 64);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -107,7 +107,8 @@
             // 
             // txtAmtCola
             // 
-            this.txtAmtCola.Location = new System.Drawing.Point(71, 64);
+            this.txtAmtCola.Enabled = false;
+            this.txtAmtCola.Location = new System.Drawing.Point(77, 65);
             this.txtAmtCola.Name = "txtAmtCola";
             this.txtAmtCola.Size = new System.Drawing.Size(84, 22);
             this.txtAmtCola.TabIndex = 5;
@@ -115,7 +116,8 @@
             // 
             // txtAmtCreamSoda
             // 
-            this.txtAmtCreamSoda.Location = new System.Drawing.Point(174, 64);
+            this.txtAmtCreamSoda.Enabled = false;
+            this.txtAmtCreamSoda.Location = new System.Drawing.Point(180, 65);
             this.txtAmtCreamSoda.Name = "txtAmtCreamSoda";
             this.txtAmtCreamSoda.Size = new System.Drawing.Size(84, 22);
             this.txtAmtCreamSoda.TabIndex = 6;
@@ -123,7 +125,8 @@
             // 
             // txtAmtGrapeSoda
             // 
-            this.txtAmtGrapeSoda.Location = new System.Drawing.Point(71, 182);
+            this.txtAmtGrapeSoda.Enabled = false;
+            this.txtAmtGrapeSoda.Location = new System.Drawing.Point(77, 183);
             this.txtAmtGrapeSoda.Name = "txtAmtGrapeSoda";
             this.txtAmtGrapeSoda.Size = new System.Drawing.Size(84, 22);
             this.txtAmtGrapeSoda.TabIndex = 7;
@@ -131,7 +134,8 @@
             // 
             // txtAmtLemonLime
             // 
-            this.txtAmtLemonLime.Location = new System.Drawing.Point(174, 182);
+            this.txtAmtLemonLime.Enabled = false;
+            this.txtAmtLemonLime.Location = new System.Drawing.Point(180, 183);
             this.txtAmtLemonLime.Name = "txtAmtLemonLime";
             this.txtAmtLemonLime.Size = new System.Drawing.Size(84, 22);
             this.txtAmtLemonLime.TabIndex = 8;
@@ -139,7 +143,8 @@
             // 
             // txtAmtRootBeer
             // 
-            this.txtAmtRootBeer.Location = new System.Drawing.Point(116, 287);
+            this.txtAmtRootBeer.Enabled = false;
+            this.txtAmtRootBeer.Location = new System.Drawing.Point(116, 312);
             this.txtAmtRootBeer.Name = "txtAmtRootBeer";
             this.txtAmtRootBeer.Size = new System.Drawing.Size(84, 22);
             this.txtAmtRootBeer.TabIndex = 9;
@@ -148,7 +153,7 @@
             // lblColaPrice
             // 
             this.lblColaPrice.AutoSize = true;
-            this.lblColaPrice.Location = new System.Drawing.Point(109, 44);
+            this.lblColaPrice.Location = new System.Drawing.Point(115, 45);
             this.lblColaPrice.Name = "lblColaPrice";
             this.lblColaPrice.Size = new System.Drawing.Size(44, 17);
             this.lblColaPrice.TabIndex = 10;
@@ -157,7 +162,7 @@
             // lblCreamSodaPrice
             // 
             this.lblCreamSodaPrice.AutoSize = true;
-            this.lblCreamSodaPrice.Location = new System.Drawing.Point(214, 44);
+            this.lblCreamSodaPrice.Location = new System.Drawing.Point(220, 45);
             this.lblCreamSodaPrice.Name = "lblCreamSodaPrice";
             this.lblCreamSodaPrice.Size = new System.Drawing.Size(44, 17);
             this.lblCreamSodaPrice.TabIndex = 11;
@@ -166,7 +171,7 @@
             // lblGrapeSodaPrice
             // 
             this.lblGrapeSodaPrice.AutoSize = true;
-            this.lblGrapeSodaPrice.Location = new System.Drawing.Point(111, 162);
+            this.lblGrapeSodaPrice.Location = new System.Drawing.Point(117, 163);
             this.lblGrapeSodaPrice.Name = "lblGrapeSodaPrice";
             this.lblGrapeSodaPrice.Size = new System.Drawing.Size(44, 17);
             this.lblGrapeSodaPrice.TabIndex = 12;
@@ -175,7 +180,7 @@
             // lblLemonLimePrice
             // 
             this.lblLemonLimePrice.AutoSize = true;
-            this.lblLemonLimePrice.Location = new System.Drawing.Point(214, 162);
+            this.lblLemonLimePrice.Location = new System.Drawing.Point(220, 163);
             this.lblLemonLimePrice.Name = "lblLemonLimePrice";
             this.lblLemonLimePrice.Size = new System.Drawing.Size(44, 17);
             this.lblLemonLimePrice.TabIndex = 13;
@@ -184,7 +189,7 @@
             // lblRootBeerPrice
             // 
             this.lblRootBeerPrice.AutoSize = true;
-            this.lblRootBeerPrice.Location = new System.Drawing.Point(156, 267);
+            this.lblRootBeerPrice.Location = new System.Drawing.Point(156, 292);
             this.lblRootBeerPrice.Name = "lblRootBeerPrice";
             this.lblRootBeerPrice.Size = new System.Drawing.Size(44, 17);
             this.lblRootBeerPrice.TabIndex = 14;
@@ -192,6 +197,7 @@
             // 
             // TxtTotal
             // 
+            this.TxtTotal.Enabled = false;
             this.TxtTotal.Location = new System.Drawing.Point(174, 414);
             this.TxtTotal.Name = "TxtTotal";
             this.TxtTotal.Size = new System.Drawing.Size(100, 22);
@@ -230,7 +236,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(-3, 5);
+            this.label6.Location = new System.Drawing.Point(1, 6);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(370, 39);
             this.label6.TabIndex = 19;
@@ -240,7 +246,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(367, 497);
+            this.ClientSize = new System.Drawing.Size(382, 501);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnNewUser);

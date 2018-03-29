@@ -74,7 +74,7 @@ namespace drink
                 this.Cost = cost;
                 this.NumberRemaining = 20;
             }
-            public bool Dispense()
+            public bool Dispense(string name)
             {
                 if (NumberRemaining > 0)
                 {
@@ -83,7 +83,7 @@ namespace drink
                 }
                 else
                 {
-                    MessageBox.Show("No more cans of this beverage are left in the machine. Please try again later!");
+                    MessageBox.Show($"No more cans of {name} beverage are left in the machine. Please try again later!");
                     return false;
                 }
 
@@ -104,27 +104,27 @@ namespace drink
             {
                 case "pictureBox1":
                     {
-                        if (Cola.Dispense()) total += Cola.Cost; UpdateTotal(); UpdateCounts();
+                        if (Cola.Dispense(Cola.Name)) total += Cola.Cost; UpdateTotal(); UpdateCounts();
                     }
                     break;
                 case "pictureBox2":
                     {
-                        if (CreamSoda.Dispense()) total += CreamSoda.Cost; UpdateTotal(); UpdateCounts();
+                        if (CreamSoda.Dispense(CreamSoda.Name)) total += CreamSoda.Cost; UpdateTotal(); UpdateCounts();
                     }
                     break;
                 case "pictureBox3":
                     {
-                        if (GrapeSoda.Dispense()) total += GrapeSoda.Cost; UpdateTotal(); UpdateCounts();
+                        if (GrapeSoda.Dispense(GrapeSoda.Name)) total += GrapeSoda.Cost; UpdateTotal(); UpdateCounts();
                     }
                     break;
                 case "pictureBox4":
                     {
-                        if (LemonLime.Dispense()) total += LemonLime.Cost; UpdateTotal(); UpdateCounts();
+                        if (LemonLime.Dispense(LemonLime.Name)) total += LemonLime.Cost; UpdateTotal(); UpdateCounts();
                     }
                     break;
                 case "pictureBox5":
                     {
-                        if (RootBeer.Dispense()) total += RootBeer.Cost; UpdateTotal(); UpdateCounts();
+                        if (RootBeer.Dispense(RootBeer.Name)) total += RootBeer.Cost; UpdateTotal(); UpdateCounts();
                     }
                     break;
             }
